@@ -1,21 +1,21 @@
 class Stelyph < Formula
   desc "A single static binary AT Protocol PDS (Personal Data Server) for self-hosted Bluesky federation"
   homepage "https://github.com/Spirallex/rust-pds"
-  version "0.1.0-alpha.1"
+  version "0.1.0-alpha.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Spirallex/rust-pds/releases/download/v0.1.0-alpha.1/stelyph-aarch64-apple-darwin.tar.xz"
-      sha256 "7e62e6eada1fcbf0b296c93112a5472d286395547e76e930e00551d35b961c2d"
+      url "https://github.com/Spirallex/rust-pds/releases/download/v0.1.0-alpha.2/stelyph-aarch64-apple-darwin.tar.xz"
+      sha256 "09fe12eeeccc1905f53708fbfc77a6e64f00e1a44837eca3d684c8b3603b3c1a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Spirallex/rust-pds/releases/download/v0.1.0-alpha.1/stelyph-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "6f8624557247db480bc38c6941460a919f0abf04f12ec4cb94482b728c8afe9c"
+      url "https://github.com/Spirallex/rust-pds/releases/download/v0.1.0-alpha.2/stelyph-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "85f6dc4c3471d4dc305801fceee88ea6bde62498efea9c035e758e605999c74e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Spirallex/rust-pds/releases/download/v0.1.0-alpha.1/stelyph-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "33aff1b348de36a7e3ae4a16ce5df98f89e8b81df1ad0dee776f638f79d011c3"
+      url "https://github.com/Spirallex/rust-pds/releases/download/v0.1.0-alpha.2/stelyph-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "34cca78fa7da24322c867d32496d0f86340f13ade17ef8739df3e2887723c6ef"
     end
   end
   license "PolyForm-Noncommercial-1.0.0"
